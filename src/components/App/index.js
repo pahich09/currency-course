@@ -45,10 +45,8 @@ const App = () => {
     fetch(exchangeUrl)
       .then(res => res.json())
       .then(res => {
-        setTimeout(() => {
-          setExchange(res);
-          setLoading(false);
-        }, 1000);
+        setExchange(res);
+        setLoading(false);
       });
   }, []);
   return (
