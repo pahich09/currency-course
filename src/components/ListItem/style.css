@@ -1,0 +1,52 @@
+.currency_card {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  max-width: 500px;
+  width: 100%;
+  justify-content: space-between;
+  background-color: azure;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding: 5px;
+  box-shadow: 3px 3px 5px #ccc;
+}
+.currency_card .country {
+  width: 18%;
+}
+.currency_card .currency {
+  width: 33%;
+  font-style: italic;
+}
+.currency_card div + div {
+  margin-left: 3%;
+  font-size: 14px;
+}
+.currency_card .flag {
+  height: 70px;
+  width: 20%;
+}
+
+.currency_card .course {
+  width: 20%;
+  border: 1px dashed #777;
+  padding: 5px;
+  background-color: skyblue;
+  display: flex;
+  flex-direction: column;
+}
+
+.currency_card .course span {
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+@media (max-width: 767px) {
+  .currency_card div + div {
+    font-size: 12px;
+  }
+  .currency_card .flag {
+    height: 50px;
+  }
+}
