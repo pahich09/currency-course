@@ -1,8 +1,8 @@
 import React from "react";
-import Flag from "../Flag";
-import Country from "../Country";
-import Currency from "../Currency";
-import Course from "../Course";
+import Flag from "./Flag";
+import Country from "./Country";
+import Currency from "./Currency";
+import Course from "./Course";
 
 import "./style.css";
 
