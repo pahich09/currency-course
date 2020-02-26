@@ -6,14 +6,14 @@ const Course = ({ el }) =>
       <b>{"1 " + el.cc}</b>
       <b>&#8645;</b>
       <b> {el.rate.toFixed(2) + "UAH"}</b>
-      <span>{el.date}</span>
+      <span>{el.exchangedate}</span>
     </div>
   ) : (
     <div className="course">
       <b>{"100 " + el.cc}</b>
       <b>&#8645;</b>
       <b> {(el.rate * 100).toFixed(2) + "UAH"}</b>
-      <span>{el.date}</span>
+      <span>{el.exchangedate}</span>
     </div>
   );
 
