@@ -8,7 +8,7 @@ import "./style.css";
 
 const ListItem = ({ currencyArray }) =>
   currencyArray.map(el => (
-    <li key={el.id} className="currency_card">
+    <li key={el.numericCode} className="currency_card">
       <Flag el={el} />
       <Country el={el} />
       <Currency el={el} />
